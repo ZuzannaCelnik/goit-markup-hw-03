@@ -1,0 +1,244 @@
+:root{
+    --brand-blue: #2196F3;
+    --main-black: #212121;
+    --main-grey: #757575;
+    --white: #FFFFFF; 
+    --footer-contact-col: rgba(255, 255, 255, 0.6);
+    --background-colour: #2F303A;
+    --logo-black: #000000;
+    --logo-font: "Roboto", sans-serif;
+    --text-font: "Raleway", sans-serif;
+}
+body{
+    font-family: var(--text-font);
+    font-weight: 400;
+    color: var(--main-black);
+}
+
+/* .header-top{
+    position: absolute; */
+
+.header-nav{
+    font-family: var(--text-font);
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    line-height: 1.143;
+    list-style: none;
+    text-decoration: none;
+    }
+.header-nav:hover,
+.header-nav:focus
+{
+    font-family: var(--text-font);
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    line-height: 1.143;
+    list-style: none;
+    color: var(--brand-blue);
+    text-decoration: none;
+    }
+.header-contacts{
+    font-family: var(--text-font);
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    line-height: 1.143;
+    list-style: none;
+    color: var(--main-grey);
+}
+.header-contacts:hover,
+.header-contacts:focus{
+    font-family: var(--text-font);
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    line-height: 1.143;
+    list-style: none;
+    color: var(--brand-blue);
+}
+.no-bullets-list{
+    list-style: none;
+}
+.logo-web{
+    color: var(--brand-blue);
+    font-size: 26px;
+    font-family: var(--logo-font);
+    letter-spacing: 0,03em;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.192;
+}
+.logo-studio{
+    color: black;
+    font-size: 26px;
+    font-family: var(--logo-font);
+    letter-spacing: 0,03em;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.192;
+}
+/* Style do index main */
+.div-main{
+    background-color: var(--background-colour);
+}
+.text-h1{
+    font-size: 44px;
+    font-family: var(--text-font);
+    font-weight: 900;
+    letter-spacing: 00.06em;
+    line-height: 1.364;
+    color: var(--white);
+}
+.button-main{
+    font-family: var(--text-font);
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 00.06em;
+    color: var(--white);
+    background-color: var(--brand-blue);
+    line-height: 1.875;
+}
+/* Style do buttons porfolio */
+.buttons-list{
+    list-style: none;
+}
+.buttons{
+    font-size: 16px;
+    line-height: 1.625;
+    /* padding: 0 20px; */
+    text-align: center;
+    color: var(--main-black);
+    border: none;
+    cursor: pointer;
+    font-family: var(--text-font);
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    }
+.buttons:hover,
+.buttons:focus{
+    background-color: var(--brand-blue);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    font-family: var(--text-font);
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    line-height: 1.625;
+}
+.pictures-menu{
+    list-style: none;
+    }
+.main-menu-header{
+    font-family: var(--text-font);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--main-black);
+    line-height: 2;
+}
+.main-menu-text{
+    font-family: var(--text-font);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: var(--main-grey);
+    line-height: 1.875;
+}
+/* style do index nasze atuty */
+.atuty-main{
+    font-family: var(--text-font);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: var(--main-black);
+    line-height: 1.143;
+}
+.atuty-text{
+    font-family: var(--text-font);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: var(--main-grey);
+    line-height: 1.714;
+}
+/* style do index (czym się zajmuje )  */
+.text-h2{
+    font-family: var(--text-font);
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: var(--main-black);
+    line-height: 1.167;
+}
+/* styles index nasz zespół */
+.team-name{
+    font-family: var(--text-font);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    color: var(--main-black);
+    line-height: 1.188;
+}
+.team-position{
+    font-family: var(--text-font);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: var(--main-grey);
+    line-height: 1.188;
+}
+/* style do footer */
+.footer-box{
+    background-color: var(--background-colour);
+}
+.footer-logo{
+    color: var(--white);
+    font-size: 26px;
+    font-family: var(--logo-font);
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.192;
+}
+.footer-address{
+    color: var(--white);
+    font-family: var(--text-font);
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    line-height: 1.714;
+}
+.footer-link{
+    color: var(--footer-contact-col);
+    text-decoration: none;
+    font-family: var(--text-font);
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.714;                            
+    /* text-decoration: underline; */
+}
+.footer-link:hover,
+.footer-link:focus{
+    color: var(--brand-blue);
+    text-decoration: none;
+    font-family: var(--text-font);
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    line-height: 1.714;
+}
