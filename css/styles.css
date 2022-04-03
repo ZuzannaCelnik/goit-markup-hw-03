@@ -15,9 +15,7 @@ body{
     color: var(--main-black);
 }
 
-/* .header-top{
-    position: absolute; */
-
+/* HEADER START */
 .header-nav{
     font-family: var(--text-font);
     font-size: 14px;
@@ -87,7 +85,10 @@ body{
     text-decoration: none;
     line-height: 1.192;
 }
-/* Style do index main */
+/* HEADER END */
+
+/* HERO START */
+/* index - hero */
 .div-main{
     background-color: var(--background-colour);
 }
@@ -108,7 +109,7 @@ body{
     background-color: var(--brand-blue);
     line-height: 1.875;
 }
-/* Style do buttons porfolio */
+/* porfolio - buttons */
 .buttons-list{
     list-style: none;
 }
@@ -137,8 +138,13 @@ body{
     letter-spacing: 0.03em;
     line-height: 1.625;
 }
+/* HERO END */
+
+/* MAIN START */
+/* portfolio - pictures menu */
 .pictures-menu{
     list-style: none;
+    display: flex;
     }
 .main-menu-header{
     font-family: var(--text-font);
@@ -147,7 +153,7 @@ body{
     letter-spacing: 0.06em;
     color: var(--main-black);
     line-height: 2;
-}
+    }
 .main-menu-text{
     font-family: var(--text-font);
     font-size: 16px;
@@ -156,7 +162,12 @@ body{
     color: var(--main-grey);
     line-height: 1.875;
 }
-/* style do index nasze atuty */
+.main-menu-flex{
+    flex-flow: column wrap;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/* index - nasze atuty */
 .atuty-main{
     font-family: var(--text-font);
     font-size: 14px;
@@ -173,7 +184,7 @@ body{
     color: var(--main-grey);
     line-height: 1.714;
 }
-/* style do index (czym się zajmuje )  */
+/* index - czym się zajmuje */
 .text-h2{
     font-family: var(--text-font);
     font-size: 36px;
@@ -182,7 +193,7 @@ body{
     color: var(--main-black);
     line-height: 1.167;
 }
-/* styles index nasz zespół */
+/* index - nasz zespół */
 .team-name{
     font-family: var(--text-font);
     font-size: 16px;
@@ -199,7 +210,9 @@ body{
     color: var(--main-grey);
     line-height: 1.188;
 }
-/* style do footer */
+/* MAIN END */
+
+/* FOOTER START */
 .footer-box{
     background-color: var(--background-colour);
 }
