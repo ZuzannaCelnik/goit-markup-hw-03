@@ -13,6 +13,12 @@ body{
     font-family: var(--text-font);
     font-weight: 400;
     color: var(--main-black);
+    margin: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 /* HEADER START */
@@ -25,6 +31,8 @@ body{
     line-height: 1.143;
     list-style: none;
     text-decoration: none;
+
+    
     }
 .header-nav:hover,
 .header-nav:focus
@@ -168,6 +176,13 @@ body{
     justify-content: space-evenly;
 }
 /* index - nasze atuty */
+.atuty-list{
+    list-style: none;
+    display: flex;
+}
+.atuty-flex{
+    justify-content: space-between;
+}
 .atuty-main{
     font-family: var(--text-font);
     font-size: 14px;
