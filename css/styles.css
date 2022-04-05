@@ -36,9 +36,9 @@ ol{
 p{
     padding: 0;
 }
-img{
+/* img{
     display: block;
-}
+} */
 
 .container{
     width: 1200px;
@@ -294,8 +294,18 @@ img{
     line-height: 1.714;
 }
 /* index - czym się zajmuje */
+.activities-list{
+    margin-bottom: 94px;
+}
 .activities{
-    padding-top: 0;
+    /* padding-top: 0;
+    padding-bottom: 94px; */
+    display: flex;  
+}
+.activities 
+.activities-list{
+    display: flex;
+    justify-content: center;
 }
 .text-h2{
     font-family: var(--text-font);
@@ -304,11 +314,10 @@ img{
     letter-spacing: 0.03em;
     color: var(--main-black);
     line-height: 1.167;
+
+    margin-bottom: 50px;
 }
-.activities-list{
-    display: flex;
-    justify-content: center;
-}
+
 .activities-item:not(:last-child){
     margin-right: 30px;
 }
