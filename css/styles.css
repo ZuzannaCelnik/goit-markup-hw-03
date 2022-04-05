@@ -5,6 +5,7 @@
     --white: #FFFFFF; 
     --footer-contact-col: rgba(255, 255, 255, 0.6);
     --background-colour: #2F303A;
+    --background-colour-team: #F5F4FA;
     --logo-black: #000000;
     --logo-font: "Roboto", sans-serif;
     --text-font: "Raleway", sans-serif;
@@ -314,6 +315,7 @@ p{
     letter-spacing: 0.03em;
     color: var(--main-black);
     line-height: 1.167;
+    text-align: center;
 
     margin-bottom: 50px;
 }
@@ -322,6 +324,26 @@ p{
     margin-right: 30px;
 }
 /* index - nasz zespół */
+.team{
+    display: flex;
+    background-color: var(--background-colour-team);
+    /* width: 1200px; */
+    justify-content: center;
+}
+.team
+.container{
+    margin-top: 94px;
+}
+.team .team-list{
+    display: flex;
+    justify-content: space-between;
+}
+.team-item:not(:last-child){
+    margin-right: 30px;
+}
+.team-item{
+    background-color: var(--white);
+}
 .team-name{
     font-family: var(--text-font);
     font-size: 16px;
@@ -329,6 +351,11 @@ p{
     letter-spacing: 0.03em;
     color: var(--main-black);
     line-height: 1.188;
+    text-align: center;
+
+    margin-top: 30px;
+    margin-bottom: 10px;
+    /* padding: 99px 59px 99px 290px; */
 }
 .team-position{
     font-family: var(--text-font);
@@ -337,6 +364,9 @@ p{
     letter-spacing: 0.03em;
     color: var(--main-grey);
     line-height: 1.188;
+    text-align: center;
+
+    margin-bottom: 30px;
 }
 /* MAIN END */
 
