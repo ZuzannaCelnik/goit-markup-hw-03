@@ -158,13 +158,20 @@ img{
 .no-bullets-list{
     list-style: none;
 }
-
 /* HEADER END */
 
 /* HERO START */
 /* index - hero */
-.div-main{
+.hero{
     background-color: var(--background-colour);
+    padding-top: 200px;
+    padding-bottom: 210px;
+}
+.hero .container{
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 .text-h1{
     font-size: 44px;
@@ -173,7 +180,11 @@ img{
     letter-spacing: 00.06em;
     line-height: 1.364;
     color: var(--white);
+    text-transform: uppercase;
+
+    margin-bottom: 30px;
 }
+
 .button-main{
     font-family: var(--text-font);
     font-weight: 700;
@@ -182,6 +193,16 @@ img{
     color: var(--white);
     background-color: var(--brand-blue);
     line-height: 1.875;
+    cursor: pointer;
+    border-style: none;
+    text-align: center;
+
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 10px 41px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 /* porfolio - buttons */
 .buttons-list{
