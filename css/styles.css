@@ -373,6 +373,9 @@ p{
 /* FOOTER START */
 .footer-box{
     background-color: var(--background-colour);
+    /* width: 1200px; */
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-logo{
     color: var(--white);
@@ -382,6 +385,9 @@ p{
     font-weight: 700;
     text-decoration: none;
     line-height: 1.192;
+    
+    margin-bottom: 20px;
+    /* padding: 1240px 161px 215px 60px; */
 }
 .footer-address{
     color: var(--white);
@@ -391,6 +397,9 @@ p{
     font-style: normal;
     letter-spacing: 0.03em;
     line-height: 1.714;
+
+    padding-left: 200px;
+    padding-bottom: 60px;
 }
 .footer-link{
     color: var(--footer-contact-col);
@@ -401,6 +410,7 @@ p{
     letter-spacing: 0.03em;
     line-height: 1.714;                            
     /* text-decoration: underline; */
+
 }
 .footer-link:hover,
 .footer-link:focus{
