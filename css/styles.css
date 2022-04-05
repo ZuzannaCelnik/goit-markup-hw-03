@@ -211,7 +211,6 @@ img{
 .buttons{
     font-size: 16px;
     line-height: 1.625;
-    /* padding: 0 20px; */
     text-align: center;
     color: var(--main-black);
     border: none;
@@ -263,20 +262,28 @@ img{
     justify-content: space-evenly;
 }
 /* index - nasze atuty */
-.atuty-list{
+.nasze-atuty{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.nasze-atuty .atuty-list{
+    width: 1170px;
     list-style: none;
     display: flex;
+    justify-content: center;
 }
-.atuty-flex{
-    justify-content: space-between;
+.atuty-item:not(:last-child){
+    margin-right: 30px;
 }
-.atuty-main{
+.atuty-header{
     font-family: var(--text-font);
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.03em;
     color: var(--main-black);
     line-height: 1.143;
+
+    margin-bottom: 10px;
 }
 .atuty-text{
     font-family: var(--text-font);
@@ -287,6 +294,9 @@ img{
     line-height: 1.714;
 }
 /* index - czym się zajmuje */
+.activities{
+    padding-top: 0;
+}
 .text-h2{
     font-family: var(--text-font);
     font-size: 36px;
@@ -294,6 +304,13 @@ img{
     letter-spacing: 0.03em;
     color: var(--main-black);
     line-height: 1.167;
+}
+.activities-list{
+    display: flex;
+    justify-content: center;
+}
+.activities-item:not(:last-child){
+    margin-right: 30px;
 }
 /* index - nasz zespół */
 .team-name{
