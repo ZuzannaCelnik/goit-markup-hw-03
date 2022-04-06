@@ -279,6 +279,7 @@ p{
     background: var(--white);
     border: 1px solid var(--portfolio-main-menu-border-box) ;
     box-sizing: border-box;
+    flex-basis: calc(100% / 3 - 30px);
 }
 .main-menu-header{
     font-family: var(--text-font);
@@ -335,6 +336,7 @@ p{
     letter-spacing: 0.03em;
     color: var(--main-grey);
     line-height: 1.714;
+    white-space: pre;
 }
 /* index - czym się zajmuje */
 .activities-list{
