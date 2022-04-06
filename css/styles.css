@@ -133,6 +133,11 @@ p{
     line-height: 1.143;
     list-style: none;
     text-decoration: none;
+    color: var(--main-black);
+}
+.header-nav-item:hover,
+.header-nav-item:focus{
+    color: var(--brand-blue);
 }
 .header-nav-list:not(:last-child){
     margin-right: 46px;
@@ -153,14 +158,6 @@ p{
 }
 .header-contacts-item:hover,
 .header-contacts-item:focus{
-    font-family: var(--text-font);
-    font-size: 14px;
-    font-weight: 500;
-    font-style: normal;
-    text-decoration: none;
-    letter-spacing: 0.02em;
-    line-height: 1.143;
-    list-style: none;
     color: var(--brand-blue);
 }
 .header .header-contacts{
