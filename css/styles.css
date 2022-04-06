@@ -267,19 +267,18 @@ p{
 }
 .pictures-menu-list{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    width: 1170px;
     }
 .pictures-menu-item:not(:last-child){
-    margin-right: 30px;
+    /* margin-right: 0px; */
     margin-bottom: 30px;
 }
 .pictures-menu-item{
     background: var(--white);
     border: 1px solid var(--portfolio-main-menu-border-box) ;
-    box-sizing: border-box;
-    flex-basis: calc(100% / 3 - 30px);
+    /* box-sizing: border-box;
+    flex-basis: calc(100% / 3 - 30px); */
 }
 .main-menu-header{
     font-family: var(--text-font);
@@ -303,7 +302,7 @@ p{
 .main-menu-flex{
     flex-flow: column wrap;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: column;
 }
 /* index - nasze atuty */
 .nasze-atuty{
