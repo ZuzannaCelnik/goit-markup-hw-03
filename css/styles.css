@@ -8,7 +8,7 @@
     --header-border-colour: #ECECEC;
     --portfolio-main-menu-border-box:  #EEEEEE;
     --logo-black: #000000;
-    --white: #FFFFFF; 
+    --white: #FFFFFF;
     --logo-font: "Roboto", sans-serif;
     --text-font: "Raleway", sans-serif;
 }
@@ -19,11 +19,12 @@ body{
     width: 1600px;
     margin: 0px auto;
 }
-*,
+/* *,
 *::before,
 *::after {
-  box-sizing: border-box;
-}
+    content: "";
+    box-sizing: border-box;
+} */
 
 h1,
 h2,
@@ -59,6 +60,7 @@ img{
 /* HEADER START */
 .header{
     padding: 0;
+    border-bottom: 1px solid var(--header-border-colour) ;
 }
 .header .container{
     width: 1200px;
@@ -68,8 +70,6 @@ img{
     padding-top: 24px;
     padding-bottom: 24px;
     margin: 0px auto;
-
-    border-bottom: 1px solid var(--header-border-colour) ;
 }
 .navigation{
     display: flex;
@@ -257,7 +257,7 @@ img{
     letter-spacing: 0.03em;
     line-height: 1.625;
     border-radius: 4px;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* HERO END */
@@ -305,7 +305,8 @@ img{
 }
 .main-menu-caption{
     border: 1px solid var(--portfolio-main-menu-border-box) ;
-}
+    }
+    
 /* index - nasze atuty */
 .nasze-atuty{
     padding-top: 94px;
@@ -346,7 +347,7 @@ img{
 .activities{
     /* padding-top: 0;
     padding-bottom: 94px; */
-    display: flex;  
+    display: flex;
 }
 .activities,
 .activities-list{
@@ -383,8 +384,8 @@ img{
 }
 .team-item{
     background-color: var(--white);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
-    0px 1px 1px rgba(0, 0, 0, 0.14), 
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 
@@ -431,7 +432,7 @@ img{
     font-weight: 700;
     text-decoration: none;
     line-height: 1.192;
-    
+
     margin-bottom: 20px;
 }
 .footer-address{
@@ -454,7 +455,7 @@ img{
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 3%;
-    line-height: 1.714;                            
+    line-height: 1.714;
 
 }
 .footer-link:hover,
