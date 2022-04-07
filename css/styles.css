@@ -16,6 +16,8 @@ body{
     font-family: var(--text-font);
     font-weight: 400;
     color: var(--main-black);
+    width: 1600px;
+    margin: 0px auto;
 }
 *,
 *::before,
@@ -421,10 +423,10 @@ p{
 /* FOOTER START */
 .footer-box{
     padding: 0;
+    background-color: var(--background-colour);
 }
 .footer-box 
 .container{
-    background-color: var(--background-colour);
     width: 1170px;
 }
 .footer-logo{
@@ -447,7 +449,7 @@ p{
     letter-spacing: 0.03em;
     line-height: 1.714;
 
-    padding-left: 200px;
+    /* padding-left: 200px; */
     padding-bottom: 60px;
     margin-top: 9px;
 }
