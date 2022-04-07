@@ -273,15 +273,11 @@ p{
     flex-wrap: wrap;
     }
 .pictures-menu-item:not(:last-child){
-    /* margin-right: 0px; */
     margin-bottom: 30px;
 }
 .pictures-menu-item{
     background: var(--white);
-    border: 1px solid var(--portfolio-main-menu-border-box) ;
-    /* box-sizing: border-box;
-    flex-basis: calc(100% / 3 - 30px); */
-}
+      }
 .main-menu-header{
     font-family: var(--text-font);
     font-size: 18px;
@@ -289,7 +285,7 @@ p{
     letter-spacing: 0.06em;
     color: var(--main-black);
     line-height: 2;
-    padding: 20px 24px 0px 24px;
+    padding: 20px 24px 4px 24px;
     }
 .main-menu-text{
     font-family: var(--text-font);
@@ -298,13 +294,15 @@ p{
     letter-spacing: 0.03em;
     color: var(--main-grey);
     line-height: 1.875;
-    padding: 0px 24px 20px 24px;
-
+    padding: 4px 24px 20px 24px;
 }
 .main-menu-flex{
     flex-flow: column wrap;
     flex-wrap: wrap;
     justify-content: column;
+}
+.main-menu-caption{
+    border: 1px solid var(--portfolio-main-menu-border-box) ;
 }
 /* index - nasze atuty */
 .nasze-atuty{
@@ -449,7 +447,6 @@ p{
     letter-spacing: 0.03em;
     line-height: 1.714;
 
-    /* padding-left: 200px; */
     padding-bottom: 60px;
     margin-top: 9px;
 }
